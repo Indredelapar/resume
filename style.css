@@ -1,7 +1,32 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
 img {
-    border-radius: 50%;
+  border-radius: 50%;
+}
+body {
+  background-color:whitesmoke;
+  font-size: 20px;
+  .sidebar {
+    background-color: green;
+    font-size: 20px; 
   }
-  body {
-    background-color: lightcyan;
-    font-size: 20px;
+  
+  .time {
+    margin: 10px
+  }
+  a {
+    margin: 10px
+  }
+  .job-title {
+    border-top: 5px solid red;
+    width: fit-content;
+  }
+  .sidebar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: wrap;
   }
