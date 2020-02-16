@@ -4,16 +4,29 @@
   box-sizing: border-box;
 }
 img {
-  border-radius: 50%;
+  /*border-radius: 50%*/
+  /* border-top-left-radius:30%;
+  border-top-right-radius: 90%; */
+  border-radius: 30% 90% 0 0;
 }
 body {
   background-color:whitesmoke;
   font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+} 
   .sidebar {
     background-color: green;
-    font-size: 20px; 
+    font-size: 20px;
+    width: 25%; 
+    height: 100%;
   }
-  
+  .container {
+    width: 75%;
+  }
+  /* comment */
   .time {
     margin: 10px
   }
@@ -24,9 +37,4 @@ body {
     border-top: 5px solid red;
     width: fit-content;
   }
-  .sidebar {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    flex-wrap: wrap;
-  }
+
